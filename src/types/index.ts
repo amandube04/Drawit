@@ -4,7 +4,7 @@ export interface Diagram {
   id: string;
   name: string;
   folderId: string;
-  data: any; // tldraw data
+  data: Record<string, unknown>; // tldraw data
   createdAt: Date;
   updatedAt: Date;
 }
